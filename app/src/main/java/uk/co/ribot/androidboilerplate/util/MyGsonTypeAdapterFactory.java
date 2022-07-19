@@ -2,6 +2,7 @@ package uk.co.ribot.androidboilerplate.util;
 
 import com.google.gson.TypeAdapterFactory;
 import com.ryanharter.auto.value.gson.GsonTypeAdapterFactory;
+//import com.ryanharter.auto.value.gson.GsonTypeAdapterFactory;
 
 @GsonTypeAdapterFactory
 public abstract class MyGsonTypeAdapterFactory implements TypeAdapterFactory {

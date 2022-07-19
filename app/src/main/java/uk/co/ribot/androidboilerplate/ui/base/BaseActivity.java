@@ -1,8 +1,11 @@
 package uk.co.ribot.androidboilerplate.ui.base;
 
 import android.os.Bundle;
-import android.support.v4.util.LongSparseArray;
-import android.support.v7.app.AppCompatActivity;
+//import androidx.core.util.LongSparseArray;
+//import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.collection.LongSparseArray;
 
 import java.util.concurrent.atomic.AtomicLong;
 

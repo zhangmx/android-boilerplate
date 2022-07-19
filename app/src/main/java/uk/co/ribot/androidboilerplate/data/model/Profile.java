@@ -1,7 +1,9 @@
 package uk.co.ribot.androidboilerplate.data.model;
 
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
+//import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
 import com.google.gson.Gson;
@@ -15,7 +17,8 @@ public abstract class Profile implements Parcelable {
     public abstract String email();
     public abstract String hexColor();
     public abstract Date dateOfBirth();
-    @Nullable public abstract String bio();
+    @Nullable
+    public abstract String bio();
     @Nullable public abstract String avatar();
 
     public static Builder builder() {
